@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="120" viewBox="0 0 1000 120" role="img" aria-label="Find the bug. Explain why. Leave the evidence.">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B1020"/>
+      <stop offset="60%" stop-color="#171341"/>
+      <stop offset="100%" stop-color="#241a5c"/>
+    </linearGradient>
+    <linearGradient id="fw1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="50%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#312E81"/>
+    </linearGradient>
+    <linearGradient id="fw2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#312E81"/>
+      <stop offset="50%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="120" fill="url(#fbg)"/>
+
+  <g opacity="0.5">
+    <path fill="url(#fw2)" d="M0,42 C150,68 260,16 400,40 C560,66 680,14 820,40 C900,54 960,44 1000,36 L1000,0 L0,0 Z">
+      <animate attributeName="d" dur="9s" repeatCount="indefinite"
+        values="M0,42 C150,68 260,16 400,40 C560,66 680,14 820,40 C900,54 960,44 1000,36 L1000,0 L0,0 Z;
+                M0,34 C150,14 260,64 400,42 C560,18 680,66 820,36 C900,20 960,34 1000,46 L1000,0 L0,0 Z;
+                M0,42 C150,68 260,16 400,40 C560,66 680,14 820,40 C900,54 960,44 1000,36 L1000,0 L0,0 Z"/>
+    </path>
+  </g>
+  <g opacity="0.9">
+    <path fill="url(#fw1)" d="M0,26 C140,46 260,4 400,26 C560,50 680,4 820,26 C900,38 960,28 1000,22 L1000,0 L0,0 Z">
+      <animate attributeName="d" dur="7s" repeatCount="indefinite"
+        values="M0,26 C140,46 260,4 400,26 C560,50 680,4 820,26 C900,38 960,28 1000,22 L1000,0 L0,0 Z;
+                M0,20 C140,4 260,44 400,22 C560,2 680,46 820,20 C900,8 960,20 1000,30 L1000,0 L0,0 Z;
+                M0,26 C140,46 260,4 400,26 C560,50 680,4 820,26 C900,38 960,28 1000,22 L1000,0 L0,0 Z"/>
+    </path>
+  </g>
+
+  <text x="500" y="92" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+        font-size="15" font-weight="600" fill="#C7D2FE" letter-spacing="2.5">
+    Find the bug.  Explain why.  Leave the evidence.
+  </text>
+</svg>
