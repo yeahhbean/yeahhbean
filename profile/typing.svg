@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="46" viewBox="0 0 680 46" role="img" aria-label="Find real bugs. Explain the root cause. Turn attacks into learning.">
+  <defs>
+    <clipPath id="c1"><rect x="120" y="8" width="0" height="30"><animate attributeName="width" values="0;0;240;240;0;0;0;0;0;0" keyTimes="0;0.02;0.20;0.30;0.32;0.34;0.5;0.7;0.9;1" dur="15s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c2"><rect x="98" y="8" width="0" height="30"><animate attributeName="width" values="0;0;0;0;0;285;285;0;0;0" keyTimes="0;0.02;0.30;0.33;0.35;0.53;0.63;0.65;0.9;1" dur="15s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c3"><rect x="80" y="8" width="0" height="30"><animate attributeName="width" values="0;0;0;0;0;0;0;320;320;0" keyTimes="0;0.02;0.30;0.35;0.63;0.66;0.68;0.86;0.96;1" dur="15s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <g font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="18" font-weight="500" fill="#A5B4FC">
+    <text x="120" y="30" clip-path="url(#c1)">Find real bugs</text>
+    <text x="98"  y="30" clip-path="url(#c2)">Explain the root cause</text>
+    <text x="80"  y="30" clip-path="url(#c3)">Turn attacks into learning</text>
+  </g>
+
+  <!-- caret -->
+  <rect y="10" width="2.5" height="26" fill="#A78BFA">
+    <animate attributeName="x"
+      values="120;120;360;360;98;98;383;383;80;80;400;400;120"
+      keyTimes="0;0.02;0.20;0.32;0.34;0.36;0.53;0.65;0.67;0.69;0.86;0.97;1"
+      dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+  </rect>
+</svg>
