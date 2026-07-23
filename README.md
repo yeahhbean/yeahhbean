@@ -99,17 +99,8 @@ Team entry for a 2025 software contest.
 <div align="center">
 
 <a href="https://github.com/yeahhbean">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=yeahhbean&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=A5B4FC&icon_color=818CF8&text_color=E5E7EB" alt="stats" />
-</a>
-<a href="https://github.com/yeahhbean">
   <img height="160" src="https://streak-stats.demolab.com/?user=yeahhbean&theme=radical&hide_border=true&background=0D1117&ring=6366F1&fire=A78BFA&currStreakLabel=A5B4FC" alt="streak" />
 </a>
-
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yeahhbean&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=A5B4FC&text_color=E5E7EB" alt="top langs" />
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=yeahhbean&theme=radical&no-frame=true&no-bg=true&margin-w=6&margin-h=6&column=7" alt="trophies" />
 
 <br/><br/>
 
