@@ -1,8 +1,8 @@
 <div align="center">
 
-![header](./profile/header.svg)
+![header](./profile/header.svg?v=security-ai-devops-20261124)
 
-[![Typing SVG](./profile/typing.svg)](https://github.com/yeahhbean)
+[![Typing SVG](./profile/typing.svg?v=security-ai-devops-20261124)](https://github.com/yeahhbean)
 
 **Cybersecurity · Applied AI · DevOps**
 
@@ -126,7 +126,7 @@ More public work: [LLM-in-the-loop project](https://github.com/yeahhbean/llm_int
 
 <br/><br/>
 
-![footer](./profile/footer.svg)
+![footer](./profile/footer.svg?v=security-ai-devops-20261124)
 
 </div>
 
