@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="184" viewBox="0 0 760 184" role="img" aria-labelledby="title desc">
+<title id="title">GitHub contribution summary</title>
+<desc id="desc">301 contributions from 2025-11-25 to 2026-11-24. Current streak: 0 days. Longest streak within this period: 4 days.</desc>
+<rect width="760" height="184" rx="8" fill="#0D1117"/>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">
+<text x="28" y="34" fill="#C7D2FE" font-size="17" font-weight="600">GitHub contributions</text>
+<text x="143" y="91" text-anchor="middle" fill="#A78BFA" font-size="34" font-weight="700">301</text>
+<text x="143" y="120" text-anchor="middle" fill="#A5B4FC" font-size="13">Past 365 days</text>
+<text x="380" y="91" text-anchor="middle" fill="#A78BFA" font-size="34" font-weight="700">0</text>
+<text x="380" y="120" text-anchor="middle" fill="#A5B4FC" font-size="13">Current streak (days)</text>
+<text x="617" y="91" text-anchor="middle" fill="#A78BFA" font-size="34" font-weight="700">4</text>
+<text x="617" y="120" text-anchor="middle" fill="#A5B4FC" font-size="13">Longest streak in period</text>
+<text x="380" y="163" text-anchor="middle" fill="#8B949E" font-size="12">2025-11-25 to 2026-11-24 · UTC · Public profile calendar</text>
+</g>
+</svg>

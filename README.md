@@ -99,12 +99,16 @@ Team entry for a 2025 software contest.
 <div align="center">
 
 <a href="https://github.com/yeahhbean">
-  <img height="160" src="https://streak-stats.demolab.com/?user=yeahhbean&theme=radical&hide_border=true&background=0D1117&ring=6366F1&fire=A78BFA&currStreakLabel=A5B4FC" alt="streak" />
+  <img width="760" src="./profile/stats.svg" alt="GitHub contribution summary for the past 365 days" />
 </a>
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=yeahhbean&theme=react-dark&bg_color=0D1117&color=A5B4FC&line=6366F1&point=A78BFA&area=true&hide_border=true" alt="activity graph" />
+<a href="https://github.com/yeahhbean?tab=overview#contributions">
+  <img width="760" src="./profile/activity.svg" alt="GitHub contributions over the past 31 days" />
+</a>
+
+<p><sub>Daily snapshot of the publicly visible GitHub contribution calendar. See the dates on each card for freshness.</sub></p>
 
 <br/><br/>
 
