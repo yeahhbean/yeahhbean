@@ -4,8 +4,9 @@
 
 [![Typing SVG](./profile/typing.svg)](https://github.com/yeahhbean)
 
-I study offensive security — fuzzing, web exploitation, and LLM/RAG app security —  
-and try to leave public evidence when I find something real.
+**Cybersecurity · Applied AI · DevOps**
+
+I investigate software vulnerabilities, build AI applications, and automate service deployment.
 
 [![GitHub](https://img.shields.io/badge/GitHub-yeahhbean-181717?style=flat-square&logo=github)](https://github.com/yeahhbean)
 ![Followers](https://img.shields.io/github/followers/yeahhbean?label=Followers&style=flat-square&color=6366F1)
@@ -17,80 +18,93 @@ and try to leave public evidence when I find something real.
 
 ## About Me
 
-I'm a third-year Software Engineering student at **Soongsil University**, focused on
-vulnerability research and hands-on offensive security.
+I'm a Software Engineering undergraduate at **Soongsil University** and a member of
+**ASC**, the university's security academic club.
 
-At **ASC**, the university hacking academic club, I practice system security and CTF.
-I completed **White Hat School 3rd cohort** as a **Top 20** graduate, and I keep working
-on finding real bugs — not only solving lab challenges.
+My experience spans **vulnerability research**, **adversarial machine learning**,
+**LLM/RAG applications**, and **CI/CD**. I work on reproducing failures, understanding
+their causes, and turning the results into fixes, experiments, and working services.
 
-My goal is simple: find real issues, understand why they happen, and write them down
-so other people can learn from the same path.
+I've been recognized in **NAVER's Bug Bounty Hall of Fame**, received reporter credit
+for **CVE-2026-45729**, and completed **White Hat School's 3rd cohort — Top 20**.
 
 ## Focus
 
 | Area | What I work on |
 |---|---|
-| **Vulnerability Research** | Fuzzing (AFL++), triage, root-cause analysis, responsible disclosure |
-| **Web Exploitation** | SSRF, request smuggling, JWT pitfalls, auth/access-control bugs |
-| **LLM / RAG Security** | Prompt injection, logging pipelines, challenge platforms for learning |
-| **Reverse Engineering** | Dynamic analysis with Frida (AOB / signature-based hooks) |
+| **Cybersecurity / AppSec** | AFL++ fuzzing, crash triage, root-cause analysis, web security, responsible disclosure |
+| **Applied AI / AI Security** | Adversarial ML, computer vision, LLM applications, retrieval-augmented generation, evaluation |
+| **DevOps / Service Delivery** | GitHub Actions CI/CD, AWS EC2, Docker, reverse-proxy logging, deployment troubleshooting |
 
 ## Featured Work
 
-### ThorVG — `CVE-2026-45729` (CWE-476)
+### [ThorVG — CVE-2026-45729](https://github.com/thorvg/thorvg/security/advisories/GHSA-f863-8ghq-7h64)
 
-Found a NULL dereference in ThorVG via **AFL++** fuzzing with valid SVG seeds.
-Minimized the crashing input to a 6-byte trigger (`<svg><`), reproduced under ASAN,
-and reported it through responsible disclosure.
+Found a **NULL pointer dereference** in ThorVG's SVG loading path through **AFL++**
+fuzzing with SVG-aware input generation. Minimized the crashing input to six bytes,
+analyzed the failure under **AddressSanitizer**, and reported it through responsible
+disclosure. The issue was fixed in **ThorVG 1.0.5**.
 
-**Focus:** Fuzzing · Crash triage · Root-cause analysis · DoS / availability impact
+**Focus:** Vulnerability research · Fuzzing · Crash analysis · Coordinated disclosure
 
-### Hackahoy — Web · AI security challenge platform (capstone)
+### [StealthBreaker — Adversarial ML & Computer Vision](https://github.com/yeahhbean/StealthBreaker)
 
-Building an education platform where learners practice real web vulns with help from
-a RAG-based AI tutor. I own the main **Next.js** frontend, an **OpenResty (Nginx + Lua)**
-reverse-proxy logging pipeline, and challenge design for web wargames.
+Reproduced **adversarial patch attacks against YOLOv5 person detection** and compared
+defenses including **randomized smoothing** and weighted filter combinations.
+Used frequency-based experiments to investigate unexpected attack behavior and checked
+how results changed under different image conditions.
 
-**Stack:** Next.js · OpenResty/Lua · RAG · Web challenge design
+**Focus:** Python · PyTorch · YOLOv5 · Adversarial robustness · Experimental evaluation
 
-### [llm_intheloop](https://github.com/yeahhbean/llm_intheloop)
+### SSUpervisor — LLM/RAG Academic Administration Assistant
 
-ASC project (25-1) exploring LLM-in-the-loop ideas for security learning / tooling.
+Led a team project that helps staff classify student inquiries, retrieve official
+documents, and review AI-generated draft answers. The application combines
+**PostgreSQL text search**, **bge-m3 semantic retrieval**, and local **Qwen models via
+Ollama**, with staff review before a final answer.
 
-### [Laravel-CVE-2018-15133](https://github.com/yeahhbean/Laravel-CVE-2018-15133)
+Compared classification failures across model sizes and added targeted server-side
+rules with recorded correction reasons. Also ran the application, database, and local
+model on a desktop server for testing and demonstration.
 
-Hands-on reproduction / study notes for a known Laravel RCE class CVE.
+**Focus:** LLM applications · RAG · Hybrid retrieval · Evaluation · Human review
 
-### [Rex](https://github.com/yeahhbean/Rex)
+**Recognition:** Top Excellence Award (최우수상), Soongsil AI Work Innovation Challenge (team award, 2026).
 
-Team entry for a 2025 software contest.
+### Hackahoy — Security Education Platform & CI/CD
+
+Led a **five-person capstone team** building a web security learning platform with an
+AI tutor. My work covered the **Next.js frontend**, **OpenResty/Nginx + Lua HTTP log
+collection**, web challenges, and integration of the team's services.
+
+To make service integration and deployment repeatable, I configured **GitHub Actions
+CI/CD** and **AWS EC2** deployment, with build and restart steps for **PM2 and Docker**
+services. Diagnosed a deployment script that replaced itself while running and skipped
+later build/restart steps; fixed the execution flow and checked it with a minimal
+reproduction.
+
+**Focus:** Service integration · CI/CD · GitHub Actions · AWS EC2 · Docker · Deployment verification
+
+More public work: [LLM-in-the-loop project](https://github.com/yeahhbean/llm_intheloop)
+· [Laravel CVE reproduction](https://github.com/yeahhbean/Laravel-CVE-2018-15133)
+· [All repositories](https://github.com/yeahhbean?tab=repositories)
 
 ## Tech Stack
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=111111)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Frida](https://img.shields.io/badge/Frida-EF4444?style=flat-square)
-![AFL++](https://img.shields.io/badge/AFL%2B%2B-111111?style=flat-square)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-## Currently
-
-- Building and hardening **Hackahoy** (frontend + OpenResty logging + RAG tutor flow)
-- Growing a portfolio of **real findings** (extra CVEs / bounty reports + writeups)
-- Practicing web/pwnable on DreamHack and keeping CTF skills sharp
-- Studying LLM security tooling (garak / PyRIT / promptfoo) as an edge on top of offensive work
+| Area | Tools and technologies used in my projects |
+|---|---|
+| **Languages & Applications** | Python · C · JavaScript · TypeScript · Bash · Next.js |
+| **Security** | AFL++ · AddressSanitizer · Frida · OpenResty / Lua |
+| **AI & Data** | PyTorch · YOLOv5 · Ollama / Qwen · PostgreSQL · bge-m3 |
+| **DevOps** | GitHub Actions · AWS EC2 · Docker · Linux · Nginx · PM2 |
 
 ## Selected recognition
 
-- **White Hat School 3rd cohort — Top 20**
-- **ThorVG `CVE-2026-45729`** — reporter credit via responsible disclosure
-- Capstone: **Hackahoy** web · AI security education platform
-- Creative Engineering Design contest — grand prize (뚜도둑 / CV + Arduino team project)
+- **NAVER Bug Bounty Hall of Fame** — acknowledged vulnerability reports
+- **White Hat School, 3rd cohort — Top 20**
+- **SSUpervisor — Top Excellence Award (최우수상)**, Soongsil AI Work Innovation Challenge, 2026 (team award)
+- **Hackahoy — Encouragement Award**, 16th Soongsil Capstone Design Competition, 2026
+- **뚜도둑 — Grand Prize**, department-level Creative Engineering Design Competition, 2023
 
 ---
 
